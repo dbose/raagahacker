@@ -1,0 +1,73 @@
+//
+///////////////////////////////////////////
+// Nice to have features...
+//
+
+1. Song search in user playlists
+2. Optionally create playlist on the fly
+3  Support interrupted recording
+4. Sound Card Device Detection
+5. Schedular
+6. All playlist operation
+7. HTML filters
+8. Exception 
+	IE Javascript error msg box
+9. Next song(navigation)
+10. ID3 tags in mp3 encoding(custom header data)
+11. Songs browser [ Shell explorer  - rooted at "root folder" ]
+12. Multi-threaded recording. Currently UI thread is recording and streaming song 
+    which causes sometimes problem especially in slow machines.
+13. List all the songs downloaded and a link tp stream-record them once again.
+15. 
+
+//
+///////////////////////////////////////////
+// Feature List - Second Round 
+//
+A.
+Record Internet Audio 
+----------------------
+Record your audio at a set time with RH's "Timer Control" 
+
+[n-VIP]*
+Internet Radio Station Support 
+
+[Site Wide Search - Dishant, Raaga, Smashit]
+[VVIP]*****
+Selective recording filter: enter your search criteria and RH will record the matching titles 
+
+[VIP]****
+Auto Volume Adjustment
+
+Site specific plugin recorder
+
+[VIP]*****
+YouTube FLV downloader and mp3 extractor.
+
+[Multi-Protocol Support]*****
+Ability to record Windows Media streams (asf, wmv, wma, asx, wmx, wvx, wax, wvx, wax) streamed through the following protocols: 
+HTTP 
+MMS 
+RTSP 
+
+B.
+Edit Audio Files 
+-----------------
+Adjust volume level according to your preference 
+Edit programs and paste selections into audio files 
+Effects such as "Fade-in" or "Fade-out" allow you to make a smoother transition between programs 
+Special effect features include: reverse sound, inverse sound, and much more 
+Manage audio files in your computer to personalize your own collections 
+Audio mixing feature: record already recorded songs and other audio files through an internal recording engine 
+
+C.
+Convert Audio and CD/DVD Burning 
+--------------------------------
+One-click conversion 
+Conversion formats supported: MP2, MP3, OGG Vorbis, WAV, and WMA audio files converted into different formats can have their quality adjusted easily 
+Supports ID3 tags--create MP3's for your MP3 player 
+Built-in burner converts files into correct formats 
+Burn supported format CD/DVD's from any set of audio files 
+Pre-designed CD labels 
+Create your own custom CD/DVD labels using the built-in "Label Editor" 
+

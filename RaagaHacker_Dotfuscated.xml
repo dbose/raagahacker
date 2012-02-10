@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v2.1.dtd">
+<dotfuscator version="2.1">
+  <!--This is application generated code. Do not edit manually.-->
+  <global />
+  <input>
+    <asmlist>
+      <inputassembly>
+        <option>honoroas</option>
+        <option>library</option>
+        <file dir="H:\My Projects\RaagaHacker_Latest\RaagaHackerL\RaagaHacker.Installer.RealPlayer\bin\Release" name="RaagaHacker.Installer.RealPlayer.dll" />
+      </inputassembly>
+    </asmlist>
+  </input>
+  <output>
+    <file dir="H:\My Projects\RaagaHacker_Latest\RaagaHackerL\RaagaHacker.Installer.RealPlayer\bin" />
+  </output>
+  <renaming>
+    <excludelist>
+      <assembly>
+        <file dir="H:\My Projects\RaagaHacker_Latest\RaagaHackerL\RaagaHacker.Installer.RealPlayer\bin\Release" name="RaagaHacker.Installer.RealPlayer.dll" />
+      </assembly>
+    </excludelist>
+    <mapping>
+      <mapoutput overwrite="false">
+        <file dir="${configdir}\Dotfuscated" name="Map.xml" />
+      </mapoutput>
+    </mapping>
+  </renaming>
+</dotfuscator>

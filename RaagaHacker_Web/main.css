@@ -1,0 +1,66 @@
+H1 {
+	BACKGROUND-POSITION: 50% bottom; MARGIN-TOP: -2px; FONT-WEIGHT: bold; FONT-SIZE: 18px; BACKGROUND-IMAGE: url(/images/dottedlinewide.gif); MARGIN-BOTTOM: 16px; PADDING-BOTTOM: 2px; COLOR: #339900; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN-BOTTOM: 3px; COLOR: #3333cc; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+H3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN-BOTTOM: 3px; COLOR: #cc0000; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #ffcc33; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN: 0px; COLOR: #555555; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN: 0px; COLOR: #555555; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+P {
+	MARGIN-TOP: 0px; FONT-SIZE: 12px; MARGIN-BOTTOM: 12px; COLOR: #555555; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+A {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #6898f8; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #3333cc
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A.small {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #333333
+}
+.small {
+	FONT-SIZE: 11px; COLOR: #333333; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+DIV#legal {
+	FONT-SIZE: 11px; MARGIN: -4px 0px 0px 20px; COLOR: #333333; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif
+}
+.menuheader1 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: 600; FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #339900
+}
+.menuheader2 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: 600; FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #3333cc
+}
+.menuheader3 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: 600; FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #cc0000
+}
+.menuheader4 {
+	PADDING-LEFT: 4px; FONT-WEIGHT: 600; FONT-SIZE: 12px; COLOR: white; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffcc33
+}
+.menuon {
+	PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 11px; CURSOR: pointer; COLOR: #555555; BORDER-BOTTOM: #cccc99 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #f0eee1
+}
+.menuoff {
+	PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555555; BORDER-BOTTOM: #cccc99 1px solid; FONT-FAMILY: Tahoma, Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #ffffff
+}
+.menuitem {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #555555; TEXT-INDENT: 3px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.menudisabled {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #d0d0d0; TEXT-INDENT: 3px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.selectedmenuitem {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #555555; TEXT-INDENT: 3px; TEXT-ALIGN: left; TEXT-DECORATION: none
+}

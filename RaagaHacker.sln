@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaagaHacker.Installer.RealPlayer", "RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj", "{06A7FF8B-831F-4B91-A876-B819D75A0D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack", "HTMLParser\HtmlAgilityPack.csproj", "{7C4A48D0-DC9D-4F97-AE64-63F7EDCA4528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaagaHacker", "RaagaHacker.csproj", "{AC169329-3B2A-4BF9-9A7C-02F3067DE607}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RaagaHacker_Setup", "RaagaHacker_Setup\RaagaHacker_Setup.vdproj", "{B78E1770-A0D7-4695-B106-8D7F49BC012F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialGenerator", "SerialGenerator\SerialGenerator.csproj", "{928E1956-11DF-46A3-9B0A-C5A579BFBC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardDialogLib", "WizardDialogLib\WizardDialogLib.csproj", "{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaagaHackerWeb", "RaagaHacker_Web\RaagaHackerWeb.csproj", "{E70E885B-6148-488E-BBFF-1E9A9B784626}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A7FF8B-831F-4B91-A876-B819D75A0D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A7FF8B-831F-4B91-A876-B819D75A0D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A7FF8B-831F-4B91-A876-B819D75A0D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A7FF8B-831F-4B91-A876-B819D75A0D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C4A48D0-DC9D-4F97-AE64-63F7EDCA4528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C4A48D0-DC9D-4F97-AE64-63F7EDCA4528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C4A48D0-DC9D-4F97-AE64-63F7EDCA4528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C4A48D0-DC9D-4F97-AE64-63F7EDCA4528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78E1770-A0D7-4695-B106-8D7F49BC012F}.Debug|Any CPU.ActiveCfg = Debug
+		{B78E1770-A0D7-4695-B106-8D7F49BC012F}.Debug|Any CPU.Build.0 = Debug
+		{B78E1770-A0D7-4695-B106-8D7F49BC012F}.Release|Any CPU.ActiveCfg = Release
+		{B78E1770-A0D7-4695-B106-8D7F49BC012F}.Release|Any CPU.Build.0 = Release
+		{928E1956-11DF-46A3-9B0A-C5A579BFBC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928E1956-11DF-46A3-9B0A-C5A579BFBC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928E1956-11DF-46A3-9B0A-C5A579BFBC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928E1956-11DF-46A3-9B0A-C5A579BFBC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E70E885B-6148-488E-BBFF-1E9A9B784626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E70E885B-6148-488E-BBFF-1E9A9B784626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E70E885B-6148-488E-BBFF-1E9A9B784626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

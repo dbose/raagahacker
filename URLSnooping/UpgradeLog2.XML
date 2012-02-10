@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="URLSnooper">
+</Property><Property Name="Solution File" Value="E:\My Projects\RaagaHackerL\URLSnooping\URLSnooper.sln">
+</Property><Property Name="Date" Value="Tuesday, October 24, 2006">
+</Property><Property Name="Time" Value="20:08:04 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\MyClasses.csproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\MyClasses.csproj">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\MyClasses.csproj.user" Description="Project user file successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\MyClasses.csproj.user">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\AssemblyInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\ColumnSorter.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\ColumnSorter.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\Const.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\Const.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\DeviceIOCtlh.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\DeviceIOCtlh.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\HexEditor.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\HexEditor.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\mach2mach.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\mach2mach.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\MyFunctions.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\MyFunctions.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\NtddNDish.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\NtddNDish.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\Packet32.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\Packet32.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\Packet32h.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\Packet32h.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketAARP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketAARP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketARP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketARP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketCDP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketCDP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketDCERPC.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketDCERPC.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketDLSW.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketDLSW.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketDNS.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketDNS.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketEIGRP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketEIGRP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketETHERNET.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketETHERNET.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketHTTP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketHTTP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketICMP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketICMP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketIGRP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketIGRP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketINTERNET.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketINTERNET.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketIPX.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketIPX.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketLLC.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketLLC.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketLOOPBACK.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketLOOPBACK.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketMSWBROWSER.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketMSWBROWSER.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketMSWLOGON.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketMSWLOGON.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketNBDS.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketNBDS.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketNBNS.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketNBNS.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketNBSS.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketNBSS.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketNETBIOS.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketNETBIOS.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketParser.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketParser.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketSMB.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketSMB.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketSMBMAILSLOT.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketSMBMAILSLOT.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketSQL.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketSQL.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketSTP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketSTP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketTB.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketTB.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketTCP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketTCP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketTFTP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketTFTP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\PacketUDP.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\PacketUDP.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\WinService.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup1\WinService.cs">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\MyClasses.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MyClasses" Source="MyClasses\MyClasses.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MyClasses" Source="MyClasses\MyClasses.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

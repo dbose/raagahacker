@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RaagaHacker">
+</Property><Property Name="Solution File" Value="E:\My Projects\RaagaHackerL\RaagaHacker.sln">
+</Property><Property Name="User Options File" Value="E:\My Projects\RaagaHackerL\RaagaHacker.suo">
+</Property><Property Name="Date" Value="Saturday, April 29, 2006">
+</Property><Property Name="Time" Value="5:10 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RaagaHacker.sln" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.sln">
+</Event><Event ErrorLevel="0" Project="" Source="RaagaHacker.suo" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.suo">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaHacker.csproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.csproj">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaHacker.csproj.user" Description="Project user file successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.csproj.user">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="ClipInfoParser.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\ClipInfoParser.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="FormatConverter.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\FormatConverter.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmAboutMe.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmAboutMe.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmAdSignatures.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmAdSignatures.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmException.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmException.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmMain.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmMain.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmMusicDirBrowser.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmMusicDirBrowser.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmNewWindowJukeBox.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmNewWindowJukeBox.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmSettings.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmSettings.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Globals.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Globals.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Mp3Encoding\Mp3Encoder.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Mp3Encoding\Mp3Encoder.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="NativeWin32.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\NativeWin32.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaCookies.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaCookies.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Signatures.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Signatures.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="SongInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\SongInfo.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Tours\RaagaHackerTourWizardMainForm.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Tours\RaagaHackerTourWizardMainForm.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Tours\RaagaHackerTourWizard_Introduction_Page.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Tours\RaagaHackerTourWizard_Introduction_Page.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="URLs.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\URLs.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Utility.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Utility.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="WaveLib\AudioWriter.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WaveLib\AudioWriter.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="WaveLib\WaveIn.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WaveLib\WaveIn.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="WaveLib\WaveNative.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WaveLib\WaveNative.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="WaveLib\WaveStream.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WaveLib\WaveStream.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="WaveLib\WaveWriter.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WaveLib\WaveWriter.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaHacker.ShellKey.snk" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.ShellKey.snk">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Tours\Tour_Introductory.rtf" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Tours\Tour_Introductory.rtf">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="AdSignatures.xml" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\AdSignatures.xml">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="App.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Help\Features Feedback.txt" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Help\Features Feedback.txt">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Help\Live HTTP Header.txt" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Help\Live HTTP Header.txt">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\myraaga_HTML.txt" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\myraaga_HTML.txt">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\myraaga_Login.html" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\myraaga_Login.html">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\playlist_LIST.htm" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\playlist_LIST.htm">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\playlist_LIST_HTML.html" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\playlist_LIST_HTML.html">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\RAAGA - Hindi - Actors - DIYA MIRZA.htm" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\RAAGA - Hindi - Actors - DIYA MIRZA.htm">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="HTMLPages\viewPL_HTML.txt" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\HTMLPages\viewPL_HTML.txt">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\Error.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\Error.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\Ghazals.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\Ghazals.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\Icon_51.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\Icon_51.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\Icon_59.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\Icon_59.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\MusicArchive.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\MusicArchive.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\mymus02.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\mymus02.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\MyRaagaLogin.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\MyRaagaLogin.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Icon\Raaga.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Icon\Raaga.ico">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Mp3Encoding\lame.exe" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Mp3Encoding\lame.exe">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Mp3Encoding\lame_enc.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Mp3Encoding\lame_enc.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\AxInterop.SHDocVw.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\AxInterop.SHDocVw.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\AxPTxSCP.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\AxPTxSCP.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\C1.Common.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\C1.Common.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\C1.Win.C1Command.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\C1.Win.C1Command.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\Interop.SHDocVw.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\Interop.SHDocVw.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="References\PTxSCP.dll" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\References\PTxSCP.dll">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Scripts\common.js" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Scripts\common.js">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Scripts\play1.js" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Scripts\play1.js">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Settings.xml" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Settings.xml">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmAboutMe.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmAboutMe.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmAdSignatures.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmAdSignatures.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmException.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmException.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmMain.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmMain.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmMusicDirBrowser.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmMusicDirBrowser.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmNewWindowJukeBox.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmNewWindowJukeBox.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="frmSettings.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\frmSettings.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="licenses.licx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\licenses.licx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Tours\RaagaHackerTourWizardMainForm.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Tours\RaagaHackerTourWizardMainForm.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="Tours\RaagaHackerTourWizard_Introduction_Page.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\Tours\RaagaHackerTourWizard_Introduction_Page.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaHacker.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RaagaHacker" Source="RaagaHacker.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RaagaHacker_Setup.vdproj" Source="RaagaHacker_Setup\RaagaHacker_Setup.vdproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker_Setup\RaagaHacker_Setup.vdproj">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardDialogLib.csproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardDialogLib.csproj">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardDialogLib.csproj.user" Description="Project user file successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardDialogLib.csproj.user">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\AssemblyInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\ExteriorWizardPage.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\ExteriorWizardPage.cs">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\InteriorWizardPage.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\InteriorWizardPage.cs">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardForm.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardForm.cs">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardPage.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardPage.cs">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\ExteriorWizardPage.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\ExteriorWizardPage.resx">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\InteriorWizardPage.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\InteriorWizardPage.resx">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardForm.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardForm.resx">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardPage.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\WizardDialogLib\WizardPage.resx">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardDialogLib.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WizardDialogLib" Source="WizardDialogLib\WizardDialogLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj.user" Description="Project user file successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj.user">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\AssemblyInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\frmException.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\frmException.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RealPlayerInstaller.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RealPlayerInstaller.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RealPlayerSetup.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RealPlayerSetup.cs">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\frmException.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\frmException.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RealPlayerInstaller.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RealPlayerInstaller.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RealPlayerSetup.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\Backup\RaagaHacker.Installer.RealPlayer\RealPlayerSetup.resx">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RaagaHacker.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RaagaHacker.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RaagaHacker" Source="RaagaHacker.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RaagaHacker_Setup.vdproj" Source="RaagaHacker_Setup\RaagaHacker_Setup.vdproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RaagaHacker_Setup.vdproj" Source="RaagaHacker_Setup\RaagaHacker_Setup.vdproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WizardDialogLib" Source="WizardDialogLib\WizardDialogLib.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RaagaHacker.Installer.RealPlayer" Source="RaagaHacker.Installer.RealPlayer\RaagaHacker.Installer.RealPlayer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

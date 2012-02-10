@@ -1,0 +1,18 @@
+
+
+	var poID = 5886;
+	var ran_number = Math.round( Math.random()*99999999);
+	var page_url = null;
+	var referrer_url = null;
+		
+	page_url = document.referrer;
+	if (window.top.location == document.location) 
+	{
+		page_url = document.location;
+		referrer_url = document.referrer;
+	}
+		
+	document.writeln('<' + 'script src="http://t.trafficmp.com/j.t/i5886/163738430/?' + page_url + '">');
+
+	document.writeln('</script>');
+	

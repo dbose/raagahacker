@@ -1,0 +1,5 @@
+obj\FX1_1\Debug\ResolveAssemblyReference.cache
+bin\FX1_1\Debug\RaagaHacker.dll
+bin\FX1_1\Debug\RaagaHacker.pdb
+obj\FX1_1\Debug\RaagaHacker.dll
+obj\FX1_1\Debug\RaagaHacker.pdb

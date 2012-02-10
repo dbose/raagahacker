@@ -1,0 +1,627 @@
+
+<html>
+<head>
+<title>RAAGA - MY RAAGA > PLAYLISTS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+<!--
+a:hover {  text-decoration: underline}
+.button {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #000000}
+.button_sml {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold; color: #000000}
+.dropdown {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; background-color: #FFFFFF; font-weight: normal}
+.textBox  {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; background-color: #FFFFFF; font-weight: normal}
+.nbTxt{
+	background-color: #FFFFFF;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-style: normal;
+	border-right-style: normal;
+	border-top-style: normal;
+	border-bottom-style: normal;
+	border-width: 1px;
+	font-size: 10px;
+	color: #000000;	
+}
+.white { color: #FFFFFF}
+.whiteNoLine { color: #FFFFFF; text-decoration: none }
+.red   { color: #CC0033}
+.maroon   { color: #990000}
+.black { color: #000000;}
+.blackNoLine { color: #000000; text-decoration: none }
+.greyNoLine { color: #666666; text-decoration: none }
+.menuItem { text-decoration: none;color: #FFFFFF; font-weight: bold; }
+.subMenuItem { text-decoration: none;color: #000000; font-weight: bold; }
+.newAlbum { text-decoration: none;color: #000000; font-weight: bold; }
+
+.grn_bg {  background-color: #CECE31; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+.blue_bg {  background-color: #3399FF; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+.org_bg {  background-color: #FF9900; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+
+.tHead {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold; color: #000000}
+.tTitle {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: normal; color: #CC0000}
+.tVal {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: normal; color: #000000}
+
+.headMenu {  font-family: Verdana, Arial, Helvetica, sans-serif;}
+-->
+</style>
+<script language="Javascript">
+	base_url = "http://www.raaga.com/";
+	var pSl = "playList";
+	dmnName = "raaga.com";
+</script>
+<script src="http://www.raaga.com/js/play1.js"></script>
+<script src="http://www.raaga.com/js/common.js"></script>
+<script src="../../js/myraaga.js"></script>
+</head>
+
+<body bgcolor="#000000" link="#ffffff" vlink="#ffffff" alink="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<center>
+
+<script language="Javascript">
+<!--
+	 window.name = "raagaMain";
+	 isPopUp = false;
+//-->
+</script>
+<form name="searchForm" method="post" action="" onSubmit="doSearch(this)">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/navbar/topNavBar_back.gif">
+  <tr>
+	<td background="http://img.raaga.com/navbar/topNavBar_back.gif">
+  <table border="0" cellpadding="0" cellspacing="0" width="800">
+    
+    <tr> 
+      <td rowspan="3"><a href="http://www.raaga.com/"><img name="topNavBar_MR_r1_c1" src="http://img.raaga.com/navbar/leftMain1.gif" width="236" height="81" border="0"></a></td>
+      <td><img name="topNavBar_MR_r1_c2" src="http://img.raaga.com/navbar/centerMain_MR.gif" width="464" height="36" border="0" usemap="#m_topNavBar_MR_r1_c2"></td>
+      <td><img src="http://img.raaga.com/spacer.gif" width="1" height="36" border="0"></td>
+    </tr>
+    <tr> 
+      <td background="http://img.raaga.com/navbar/menuBar.gif">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><img src="http://img.raaga.com/spacer.gif" width="15" height="18"></td>
+				<td class=headMenu>
+				<font size=1>
+					<a href="http://www.raaga.com/" class=black>Home</a> | 
+					<a href="" onClick="getFeedback();return false" class=black>Feedback</a> | 
+					<a href="" onClick="informer();return false" class=black>Tell a Friend</a> | 
+					<a href="http://www.raaga.com/channels/home/search.asp" class=black>Search</a> 
+					
+					| <a href="nonstop.asp" class=black>Non-Stop Channels</a>
+					
+				</font>
+				</td>
+			</tr>
+		</table>
+      </td>
+      <td><img src="http://img.raaga.com/spacer.gif" width="1" height="18" border="0"></td>
+    </tr>
+    <tr> 
+      <td background="http://img.raaga.com/navBar/gray_bg.gif"> 
+        <table width="465" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width=15><img src="http://img.raaga.com/spacer.gif" width="15" height="27"></td>
+            <td class=headMenu width=50 align=right><b><font size=1 color="#FFFFFF">Search:</font></b></td>
+            <td width=85 align=center>
+              <input type="text" name="search" size="10" class="textBox">
+            </td>
+            <td width=7 align=center>
+            <font face="verdana, arial" size=1>
+              <select name="Lang" size="1" class="dropdown">
+                <option value="H">Hindi</option>
+                <option value="M">Malayalam</option>
+				<option value="T">Tamil</option>
+          		<option value="A">Telugu</option>
+              </select>
+            </font>
+            </td>
+            <td width=75 align=center>
+            <font face="verdana, arial" size=1>
+              <select name="search_fld" class="dropdown">
+				<option selected>Movie</option>
+				<option>Song</option>
+				<option>Actors</option>
+				<option>Actress</option>
+				<option>Singers</option>
+				<option>Music</option>
+				<option value="ALL">All</option>
+	      	  </select>
+	     </font>
+            </td>
+            <td width=125>
+            	<input type="radio" name="match" value="E" checked style="background:#666666">
+				<font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">Exact</font>
+				<input type="radio" name="match" value="A" style="background-color:#666666;">
+				<font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">Like</font>
+	    	</td>
+            <td align=center>
+            	<a href="" onClick="doSearch(document.searchForm);return false"><img src="http://img.raaga.com/navbar/button_go.gif" border=0 align=absMiddle></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <map name="m_topNavBar_MR_r1_c2"> 
+      <area shape="rect" coords="12,14,81,36" href="http://www.raaga.com/channels/hindi/"  alt="Hindi songs">
+      <area shape="rect" coords="82,12,166,36" href="http://www.raaga.com/channels/malayalam/"  alt="Malayalam songs">
+      <area shape="rect" coords="167,14,235,36" href="http://www.raaga.com/channels/tamil/"  alt="Tamil songs">
+      <area shape="rect" coords="236,14,305,36" href="http://www.raaga.com/channels/telugu/" alt="Telugu songs">      
+      <area shape="rect" coords="306,12,395,36" href="http://www.raaga.com/channels/myraaga/"  alt="My RAAGA">
+    </map>
+  </table>
+  </td>
+  </tr>
+  <!--<tr><td bgcolor="#CCCCCC"><img src="http://img.raaga.com/spacer.gif" height="1" width=2"></td></tr>-->
+  </table>
+</form>
+<table width="740" height="90" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width=160>&nbsp;</td>
+<td>
+<center>
+
+
+
+<script language="javascript"><!--
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+
+document.write('<iframe src="http://www.raaga.com/bAds/headerIFrame.asp?rand='+rnum+
+
+'" width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4"&s=i&rnum='+rnum+
+'" width=728 height=90 border=0></a></iframe>');
+// --></script>
+<noscript><a href="http://media.fastclick.net/w/click.here?sid=5577&m=1&c=1" target="_blank">
+<img src="http://media.fastclick.net/w/get.media?sid=5577&m=1&tp=5&d=s&c=1"
+width=728 height=90 border=1></a></noscript>
+
+
+</center>
+</td>
+<td width=134>&nbsp;</td>
+</tr>
+</table>
+<img src="http://img.raaga.com/spacer.gif" height="1" width=2">
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+  <tr> 
+      <!--<td rowspan=1 width="1" bgcolor="#cccccc"><img src="/images/shim.gif" width="1" height="1"></td>-->
+      <td width="151" align="center" rowspan=1 valign=top bgcolor="#E3E3E3"> 
+        <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#E3E3E3">
+          <tr> 
+            <td> 
+              
+
+<table width="145" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/r_menu_back.gif">
+<tr>
+	<td valign="top">
+	<table border="0" cellpadding="0" cellspacing="0" width="150">
+		<tr>
+		<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/common/left_menu_button.jpg">
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="5" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/hindi/" target="_top"  class="menuItem" title="Hindi Songs">
+				HINDI
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/tamil/" target="_top"  class="menuItem" title="Tamil Songs">
+				TAMIL
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/telugu/" target="_top"  class="menuItem" title="Telugu Songs">
+				TELUGU
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/malayalam/" target="_top"  class="menuItem" title="Malayalam Songs">
+				MALAYALAM
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/myraaga/" target="_top"  class="menuItem" title="My Raaga">
+				MY RAAGA
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			
+		</table>
+		</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="http://img.raaga.com/spacer.gif" width="8" height="8"></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.raaga.com/channels/home/nonstop.asp" ><img src="http://img.raaga.com/common/nonstop1.jpg" width="150" height="44" border=0 alt="Non-Stop Channels"></a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="gallery.asp" target="_blank"><img src="http://img.raaga.com/common/imggal1.jpg" width="150" height="44" border=0 alt="Image Gallery"></a>
+		</td>
+	</tr>
+  <tr>
+    <td valign="top">
+      
+      <!------------ LEFT 125x125 --------->
+      <table width="100%" border="0" cellspacing="0" cellpadding="3" background="http://img.raaga.com/gray1x1.gif">
+        <tr bgcolor="#E3E3E3">
+            <td align=center>
+
+							<!-- ---------- Advertising.com Banner Code -------------- -->
+							<SCRIPT LANGUAGE=JavaScript>
+							var bnum=new Number(Math.floor(99999999 * Math.random())+1);
+							document.write('<SCR'+'IPT LANGUAGE="JavaScript" ');
+							document.write('SRC="http://servedby.advertising.com/site=72422/size=125125/bnum='+bnum+'/optn=1"></SCR'+'IPT>');
+							</SCRIPT>
+							<NOSCRIPT>
+									 <A HREF="http://servedby.advertising.com/click/site=72422/bnum=54301768" TARGET="_blank">
+									 <IMG SRC="http://servedby.advertising.com/site=72422/size=125125/bnum=54301768/bins=1/rich=0" WIDTH="125" HEIGHT="125" BORDER="0" ALT="Click to learn more...">
+									 </A>
+							</NOSCRIPT>
+							<!-- ---------- Copyright 2000, Advertising.com ---------- -->
+            </td>
+      	</tr>
+      	</table>
+      	<!------------ LEFT 125x125 --------->
+      	
+	  <br>
+    </td>
+  </tr>
+</table>
+<br>
+<center>
+<a href='http://www.real.com/freeplayer/?rppr=raaga.com' target='_blank' title='Download FREE RealOne player...'>
+<img src="http://www.raaga.com/images/common/real_icon.gif" border=0>
+</a>
+<br><br>  
+
+</center>
+
+
+            </td>
+          </tr>
+        </table>
+		<BR>
+        <BR>
+        <BR>
+      </td>
+    <td rowspan=1 width="9" bgcolor="#000000">&nbsp;</td>
+    <td valign="top" width="607" align="center" bgcolor="#E3E3E3">
+		<br>
+	        
+<!--<script language="javascript">
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+document.write('<iframe src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum='+rnum+
+'" width=468 height=60 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=2'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2"&s=i&rnum='+rnum+
+'" width=468 height=60 border=0></a></iframe>');
+</script>
+<noscript>
+	<iframe src=http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum=1234 
+	width=468 height=60 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>
+	<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=2&rnum=1234" target="_blank">
+	<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum=1234" border=0></a>
+	</iframe>
+</noscript>
+-->
+
+<script language="Javascript"><!--
+var i=j=p=t=u=x=z=dc='';var id=f=0;var f=Math.floor(Math.random()*7777);
+id=5577; dc=document;u='ht'+'tp://media.fastclick.net/w'; x='/get.media?t=n';
+z=' width=468 height=60 border=0 ';t=z+'marginheight=0 marginwidth=';
+i=u+x+'&sid='+id+'&m=1&tp=1&f=b&v=1.4&c='+f+'&r='+escape(dc.referrer);
+u='<a  hr'+'ef="'+u+'/click.here?sid='+id+'&m=1&c='+f+'"  target="_blank">';
+dc.writeln('<ifr'+'ame src="'+i+'&d=f"'+t+'0 hspace=0 vspace=0 frameborder=0 scrolling=no>');
+if(navigator.appName.indexOf('Mic')<=0){dc.writeln(u+'<img src="'+i+'&d=n"'+z+'></a>');}
+dc.writeln('</iframe>'); // --></script><noscript>
+<a href="http://media.fastclick.net/w/click.here?sid=5577&m=1&c=1"  target="_blank">
+<img src="http://media.fastclick.net/w/get.media?sid=5577&m=1&tp=1&d=s&c=1&f=b&v=1.4"
+width=468 height=60 border=1></a></noscript>
+					
+<br><br>
+	<center>
+	<img src="http://img.raaga.com/common/myraaga.jpg" height=150 width=460>
+	<br><br>
+	<table width="400" border="0" cellspacing="0" cellpadding="0" align=center>
+	
+	<tr><td>
+		<img src="../../images/common/myPL.gif" align=right>
+	</td></tr>
+	<tr bgcolor="#336699"><td>
+			<img src="../../images/spacer.gif" height=1 width=5 align=right>
+	</td></tr>
+	</table>
+
+	<form>
+	<table width="400" border="0" cellspacing="0" cellpadding="3" align=center>
+			
+			<tr> 
+				<td width=20 class="tHead"><img src="../../images/common/myPl_icon.gif" align=top></td>
+				<td width=200 class="tHead" nowrap colspan=2>
+					<a href="" class="red" onClick="getPL('C202138112243885180074219200510113670402','ULTRA HINDI VOL. 1');return false;">
+					<b>ULTRA HINDI VOL. 1</b>
+					</a><font color="#000000">(15)</font>
+				</td>
+				<td width=180 class="tVal" nowrap align=right>Last modified: 2/24/2005</td>
+			</tr>
+			<tr valign=top> 
+				<td class="tVal" colspan=2 nowrap>&nbsp;</td>
+				<td colspan="2" align=right>
+				<input type="button" class="button_sml" value="View/Edit" onClick="getPL('C202138112243885180074219200510113670402','ULTRA HINDI VOL. 1')">
+				<input type="button" class="button_sml" value="Rename..." onClick="renPL('C202138112243885180074219200510113670402','ULTRA HINDI VOL. 1')">
+				<input type="button" class="button_sml" value="Delete" onClick="delPL('C202138112243885180074219200510113670402','ULTRA HINDI VOL. 1')">
+				</td>
+			</tr>
+			
+	</table>
+	</form>
+	
+
+	<form>
+	<table width="400" border="0" cellspacing="0" cellpadding="3" align=center>
+			
+			<tr> 
+				<td width=20 class="tHead"><img src="../../images/common/myPl_icon.gif" align=top></td>
+				<td width=200 class="tHead" nowrap colspan=2>
+					<a href="" class="red" onClick="getPL('C20320022162666732019224200502117887671','ULTRA HINDI VOL. 2');return false;">
+					<b>ULTRA HINDI VOL. 2</b>
+					</a><font color="#000000">(14)</font>
+				</td>
+				<td width=180 class="tVal" nowrap align=right>Last modified: 2/24/2005</td>
+			</tr>
+			<tr valign=top> 
+				<td class="tVal" colspan=2 nowrap>&nbsp;</td>
+				<td colspan="2" align=right>
+				<input type="button" class="button_sml" value="View/Edit" onClick="getPL('C20320022162666732019224200502117887671','ULTRA HINDI VOL. 2')">
+				<input type="button" class="button_sml" value="Rename..." onClick="renPL('C20320022162666732019224200502117887671','ULTRA HINDI VOL. 2')">
+				<input type="button" class="button_sml" value="Delete" onClick="delPL('C20320022162666732019224200502117887671','ULTRA HINDI VOL. 2')">
+				</td>
+			</tr>
+			
+	</table>
+	</form>
+	
+
+	<form>
+	<table width="400" border="0" cellspacing="0" cellpadding="3" align=center>
+			
+			<tr> 
+				<td width=20 class="tHead"><img src="../../images/common/myPl_icon.gif" align=top></td>
+				<td width=200 class="tHead" nowrap colspan=2>
+					<a href="" class="red" onClick="getPL('C2032002216221389058226200507022536973','ULTRA HINDI VOL. 3');return false;">
+					<b>ULTRA HINDI VOL. 3</b>
+					</a><font color="#000000">(14)</font>
+				</td>
+				<td width=180 class="tVal" nowrap align=right>Last modified: 3/10/2005</td>
+			</tr>
+			<tr valign=top> 
+				<td class="tVal" colspan=2 nowrap>&nbsp;</td>
+				<td colspan="2" align=right>
+				<input type="button" class="button_sml" value="View/Edit" onClick="getPL('C2032002216221389058226200507022536973','ULTRA HINDI VOL. 3')">
+				<input type="button" class="button_sml" value="Rename..." onClick="renPL('C2032002216221389058226200507022536973','ULTRA HINDI VOL. 3')">
+				<input type="button" class="button_sml" value="Delete" onClick="delPL('C2032002216221389058226200507022536973','ULTRA HINDI VOL. 3')">
+				</td>
+			</tr>
+			
+	</table>
+	</form>
+	
+ 
+
+
+
+
+<form name="getPLFrm" action="viewPL.asp" method="post">
+<input type="hidden" name="cid">
+<input type="hidden" name="cname">
+<input type="hidden" name="whichpage" value=1>
+</form>
+
+
+<form name="delPLFrm" action="delPL.asp" method="post">
+<input type="hidden" name="cid">
+</form>
+
+<form name="renPLFrm" action="renPL.asp" method="post">
+<input type="hidden" name="cid">
+<input type="hidden" name="plName">
+</form>
+  
+<br><br>
+
+        </td>
+      <td rowspan=1 width="9" bgcolor="#000000">&nbsp;</td>
+      <td valign="top" align="center" bgcolor="#E3E3E3" width="125">
+              
+
+<form method="post" action="http://www.raaga.com/secnew/authenNew.asp" name="rt_form">
+  
+    <table width="125" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/right_menu_back.gif">
+
+    <tr bgcolor="#666666">
+      <td  background="http://img.raaga.com/gray1x1.gif">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%"  background="http://img.raaga.com/common/rt_menu_button.jpg">
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><a href="http://www.raaga.com/channels/myraaga/playlist.asp" class="menuItem">My Playlists</a></b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td>
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+              <a href="http://www.raaga.com/channels/myraaga/profile.asp" class="menuItem">Update Profile</a><br>
+              </b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+						<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+							<a href="http://www.raaga.com/channels/myraaga/profile.asp?task=email" class="menuItem">Update E-mail</a><br>
+							</b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+						<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+							<a href="http://www.raaga.com/channels/myraaga/profile.asp?task=passwd" class="menuItem">Change Password</a><br>
+							</b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+              <a href="http://www.raaga.com/channels/myraaga/logout.asp" class="menuItem">Sign out</a> </b></font></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+        <td><img src="http://img.raaga.com/spacer.gif" width="8" height="8"></td>
+    </tr>
+    </table>
+
+    
+    <table width="125" border="0" cellspacing="0" cellpadding="2">
+    <tr bgcolor="#E3E3E3">
+      <td align="center">
+	  <br>
+		<!-- FASTCLICK.COM 120x600 v1.4 for raaga.com -->
+		<script language="Javascript"><!-- 
+		var i=j=p=t=u=x=z=dc='';var id=f=0;var f=Math.floor(Math.random()*7777);
+		id=5577; dc=document;u='ht'+'tp://media.fastclick.net/w'; x='/get.media?t=n';
+		z=' width=120 height=600 border=0 ';t=z+'marginheight=0 marginwidth=';
+		i=u+x+'&sid='+id+'&m=3&f=b&v=1.4&c='+f+'&r='+escape(dc.referrer);
+		u='<a  hr'+'ef="'+u+'/click.here?sid='+id+'&m=3&c='+f+'"  target="_blank">';
+		dc.writeln('<ifr'+'ame src="'+i+'&d=f"'+t+'0 hspace=0 vspace=0 frameborder=0 scrolling=no>');
+		if(navigator.appName.indexOf('Mic')<=0){dc.writeln(u+'<img src="'+i+'&d=n"'+z+'></a>');}
+		dc.writeln('</iframe>'); // --></script><noscript>
+		<a href="http://media.fastclick.net/w/click.here?sid=5577&m=3&c=1"  target="_blank">
+		<img src="http://media.fastclick.net/w/get.media?sid=5577&m=3&d=s&c=1&f=b&v=1.4"
+		width=120 height=600 border=1></a></noscript>
+		<!-- FASTCLICK.COM 120x600 v1.4 for raaga.com -->
+		
+      </td>
+    </tr>
+  </table>
+</form>
+
+	  </td>
+  </tr>
+</table>
+
+	      
+<br>
+	
+<script language="javascript"><!--
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+document.write('<iframe src="http://www.raaga.com/bAds/footerIFrame.asp?rand='+rnum+
+'" width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4"&s=i&rnum='+rnum+
+'" width=728 height=90 border=0></a></iframe>');
+// --></script>
+<noscript>
+	<iframe src=http://ads1.revenue.net/v?site_id=13795&pplacement_id=4&rnum=1234 
+	width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>
+	<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4&rnum=1234" target="_blank">
+	<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4&rnum=1234" border=0></a>
+	</iframe>
+</noscript><!-- ---------- Advertising.com Banner Code -------------- --> 
+<script language="JavaScript"> 
+<!-- 
+function setCookie(NameOfCookie, value, expirehours) { 
+var ExpireDate = new Date (); 
+ExpireDate.setTime(ExpireDate.getTime() + (expirehours * 3600 * 1000)); 
+document.cookie = NameOfCookie + "=" + escape(value) + 
+((expirehours == null) ? "" : "; expires=" + ExpireDate.toGMTString()) + 
+"; path=/;" ; 
+} 
+if (document.cookie.indexOf('AdComPop69406')==-1) 
+{ 
+setCookie('AdComPop69406','yes',24);
+var bnum=new Number(Math.floor(99999999 * Math.random())+1);
+document.write('<SCR'+'IPT LANGUAGE="JavaScript" '); 
+document.write(' SRC="http://servedby.advertising.com/pops=6/site=69406/bnum='+bnum+'"></SCR'+'IPT>'); 
+} 
+// --> 
+</script> 
+<!-- ----------Copyright 2000, Advertising.com---------- -->
+<br><br>
+<table align=center>
+<tr><td class=white>
+<font face=verdana size=1>
+Raaga.com is an officially licensed IPRS website.
+</font>
+</td></tr>
+</table>
+<br>   
+ <table border="0" cellpadding="0" cellspacing="0" width="100%" background="http://img.raaga.com/footer_r1_c2.gif">
+   <tr>
+    <td background="http://img.raaga.com/footer_r1_c1.gif"><img src="http://img.raaga.com/none.gif" width=34 height=1 align=left></td>
+    <td background="http://img.raaga.com/footer_r1_c2.gif"  width="90%" nowrap>
+    <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#CC0000"><a href="default.asp" class="red">Home</a>
+   | <a href="../myraaga/" class="red">My Raaga</a> | <a href="" onClick="register();return false" class="red">Register</a>
+   | <a href="" onClick="informer();return false" class="red">Tell a friend</a> | <a href="" onClick="getFeedback();return false" class="red">Feedback</a> |
+   <!--Advertise | About Us |--> <a href="http://www.raaga.com/channels/home/privacy.asp" class="red">Privacy Policy</a> <!--| Disclaimer-->
+   <br>
+   Copyright © 2004 Raaga.com
+   
+   
+	<img src="http://img.raaga.com/skins/texture/realjukebox1_metal.jpg" width="1" height="1">
+   </font>
+    </td>
+    <td>
+    <a href="http://www.raaga.com/">
+    	<img name="footer_r1_c3" src="http://img.raaga.com/footer_r1_c3.gif" width="223" height="44" border="0">
+    </a>
+    </td>
+   </tr>
+ </table>
+
+<!--S1-->
+	
+</center>
+
+
+
+</body>
+</html>

@@ -1,0 +1,987 @@
+
+
+<html>
+<head>
+
+<title>RAAGA - MY RAAGA > ULTRA HINDI VOL. 1</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+<!--
+a:hover {  text-decoration: underline}
+.button {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold; color: #000000}
+.button_sml {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold; color: #000000}
+.dropdown {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; background-color: #FFFFFF; font-weight: normal}
+.textBox  {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 8pt; color: #000000; background-color: #FFFFFF; font-weight: normal}
+.nbTxt{
+	background-color: #FFFFFF;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-style: normal;
+	border-right-style: normal;
+	border-top-style: normal;
+	border-bottom-style: normal;
+	border-width: 1px;
+	font-size: 10px;
+	color: #000000;	
+}
+.white { color: #FFFFFF}
+.whiteNoLine { color: #FFFFFF; text-decoration: none }
+.red   { color: #CC0033}
+.maroon   { color: #990000}
+.black { color: #000000;}
+.blackNoLine { color: #000000; text-decoration: none }
+.greyNoLine { color: #666666; text-decoration: none }
+.menuItem { text-decoration: none;color: #FFFFFF; font-weight: bold; }
+.subMenuItem { text-decoration: none;color: #000000; font-weight: bold; }
+.newAlbum { text-decoration: none;color: #000000; font-weight: bold; }
+
+.grn_bg {  background-color: #CECE31; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+.blue_bg {  background-color: #3399FF; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+.org_bg {  background-color: #FF9900; color: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 9pt; font-weight: bold}
+
+.tHead {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: bold; color: #000000}
+.tTitle {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: normal; color: #CC0000}
+.tVal {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; font-weight: normal; color: #000000}
+
+.headMenu {  font-family: Verdana, Arial, Helvetica, sans-serif;}
+-->
+</style>
+<script language="Javascript">
+	base_url = "http://www.raaga.com/";
+	var pSl = "playList";
+	dmnName = "raaga.com";
+</script>
+<script src="http://www.raaga.com/js/play1.js"></script>
+<script src="http://www.raaga.com/js/common.js"></script>
+<script src="../../js/myraagaPL.js"></script>
+</head>
+
+<body bgcolor="#000000" link="#ffffff" vlink="#ffffff" alink="#ffffff" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center>
+
+<script language="Javascript">
+<!--
+	 window.name = "raagaMain";
+	 isPopUp = false;
+//-->
+</script>
+<form name="searchForm" method="post" action="" onSubmit="doSearch(this)">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/navbar/topNavBar_back.gif">
+  <tr>
+	<td background="http://img.raaga.com/navbar/topNavBar_back.gif">
+  <table border="0" cellpadding="0" cellspacing="0" width="800">
+    
+    <tr> 
+      <td rowspan="3"><a href="http://www.raaga.com/"><img name="topNavBar_MR_r1_c1" src="http://img.raaga.com/navbar/leftMain1.gif" width="236" height="81" border="0"></a></td>
+      <td><img name="topNavBar_MR_r1_c2" src="http://img.raaga.com/navbar/centerMain_MR.gif" width="464" height="36" border="0" usemap="#m_topNavBar_MR_r1_c2"></td>
+      <td><img src="http://img.raaga.com/spacer.gif" width="1" height="36" border="0"></td>
+    </tr>
+    <tr> 
+      <td background="http://img.raaga.com/navbar/menuBar.gif">
+		<table border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td><img src="http://img.raaga.com/spacer.gif" width="15" height="18"></td>
+				<td class=headMenu>
+				<font size=1>
+					<a href="http://www.raaga.com/" class=black>Home</a> | 
+					<a href="" onClick="getFeedback();return false" class=black>Feedback</a> | 
+					<a href="" onClick="informer();return false" class=black>Tell a Friend</a> | 
+					<a href="http://www.raaga.com/channels/home/search.asp" class=black>Search</a> 
+					
+					| <a href="nonstop.asp" class=black>Non-Stop Channels</a>
+					
+				</font>
+				</td>
+			</tr>
+		</table>
+      </td>
+      <td><img src="http://img.raaga.com/spacer.gif" width="1" height="18" border="0"></td>
+    </tr>
+    <tr> 
+      <td background="http://img.raaga.com/navBar/gray_bg.gif"> 
+        <table width="465" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width=15><img src="http://img.raaga.com/spacer.gif" width="15" height="27"></td>
+            <td class=headMenu width=50 align=right><b><font size=1 color="#FFFFFF">Search:</font></b></td>
+            <td width=85 align=center>
+              <input type="text" name="search" size="10" class="textBox">
+            </td>
+            <td width=7 align=center>
+            <font face="verdana, arial" size=1>
+              <select name="Lang" size="1" class="dropdown">
+                <option value="H">Hindi</option>
+                <option value="M">Malayalam</option>
+				<option value="T">Tamil</option>
+          		<option value="A">Telugu</option>
+              </select>
+            </font>
+            </td>
+            <td width=75 align=center>
+            <font face="verdana, arial" size=1>
+              <select name="search_fld" class="dropdown">
+				<option selected>Movie</option>
+				<option>Song</option>
+				<option>Actors</option>
+				<option>Actress</option>
+				<option>Singers</option>
+				<option>Music</option>
+				<option value="ALL">All</option>
+	      	  </select>
+	     </font>
+            </td>
+            <td width=125>
+            	<input type="radio" name="match" value="E" checked style="background:#666666">
+				<font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">Exact</font>
+				<input type="radio" name="match" value="A" style="background-color:#666666;">
+				<font face="Arial, Helvetica, sans-serif" size="1" color="#FFFFFF">Like</font>
+	    	</td>
+            <td align=center>
+            	<a href="" onClick="doSearch(document.searchForm);return false"><img src="http://img.raaga.com/navbar/button_go.gif" border=0 align=absMiddle></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <map name="m_topNavBar_MR_r1_c2"> 
+      <area shape="rect" coords="12,14,81,36" href="http://www.raaga.com/channels/hindi/"  alt="Hindi songs">
+      <area shape="rect" coords="82,12,166,36" href="http://www.raaga.com/channels/malayalam/"  alt="Malayalam songs">
+      <area shape="rect" coords="167,14,235,36" href="http://www.raaga.com/channels/tamil/"  alt="Tamil songs">
+      <area shape="rect" coords="236,14,305,36" href="http://www.raaga.com/channels/telugu/" alt="Telugu songs">      
+      <area shape="rect" coords="306,12,395,36" href="http://www.raaga.com/channels/myraaga/"  alt="My RAAGA">
+    </map>
+  </table>
+  </td>
+  </tr>
+  <!--<tr><td bgcolor="#CCCCCC"><img src="http://img.raaga.com/spacer.gif" height="1" width=2"></td></tr>-->
+  </table>
+</form>
+<table width="740" height="90" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td width=160>&nbsp;</td>
+<td>
+<center>
+
+
+
+<script language="javascript"><!--
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+
+document.write('<iframe src="http://www.raaga.com/bAds/headerIFrame.asp?rand='+rnum+
+
+'" width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4"&s=i&rnum='+rnum+
+'" width=728 height=90 border=0></a></iframe>');
+// --></script>
+<noscript><a href="http://media.fastclick.net/w/click.here?sid=5577&m=1&c=1" target="_blank">
+<img src="http://media.fastclick.net/w/get.media?sid=5577&m=1&tp=5&d=s&c=1"
+width=728 height=90 border=1></a></noscript>
+
+
+</center>
+</td>
+<td width=134>&nbsp;</td>
+</tr>
+</table>
+<img src="http://img.raaga.com/spacer.gif" height="1" width=2">
+<table width="770" cellspacing="0" cellpadding="0" border="0">
+  <tr> 
+      <!--<td rowspan=1 width="1" bgcolor="#cccccc"><img src="/images/shim.gif" width="1" height="1"></td>-->
+      <td width="151" align="center" rowspan=1 valign=top bgcolor="#E3E3E3"> 
+        <table width="150" border="0" cellspacing="0" cellpadding="0" bgcolor="#E3E3E3">
+          <tr> 
+            <td> 
+              
+
+<table width="145" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/r_menu_back.gif">
+<tr>
+	<td valign="top">
+	<table border="0" cellpadding="0" cellspacing="0" width="150">
+		<tr>
+		<td>
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/common/left_menu_button.jpg">
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="5" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/hindi/" target="_top"  class="menuItem" title="Hindi Songs">
+				HINDI
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/tamil/" target="_top"  class="menuItem" title="Tamil Songs">
+				TAMIL
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/telugu/" target="_top"  class="menuItem" title="Telugu Songs">
+				TELUGU
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/malayalam/" target="_top"  class="menuItem" title="Malayalam Songs">
+				MALAYALAM
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+				<img src="http://img.raaga.com/spacer.gif" width="1" height="20" align=right>
+				&nbsp;
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+				<a href="http://www.raaga.com/channels/myraaga/" target="_top"  class="menuItem" title="My Raaga">
+				MY RAAGA
+				</a>
+				</font>
+				</td>
+			</tr>
+			
+			
+		</table>
+		</td>
+		</tr>
+		</table>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="http://img.raaga.com/spacer.gif" width="8" height="8"></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.raaga.com/channels/home/nonstop.asp" ><img src="http://img.raaga.com/common/nonstop1.jpg" width="150" height="44" border=0 alt="Non-Stop Channels"></a>
+		</td>
+	</tr>
+	<tr>
+		<td><a href="gallery.asp" target="_blank"><img src="http://img.raaga.com/common/imggal1.jpg" width="150" height="44" border=0 alt="Image Gallery"></a>
+		</td>
+	</tr>
+  <tr>
+    <td valign="top">
+      
+      <!------------ LEFT 125x125 --------->
+      <table width="100%" border="0" cellspacing="0" cellpadding="3" background="http://img.raaga.com/gray1x1.gif">
+        <tr bgcolor="#E3E3E3">
+            <td align=center>
+
+							<!-- ---------- Advertising.com Banner Code -------------- -->
+							<SCRIPT LANGUAGE=JavaScript>
+							var bnum=new Number(Math.floor(99999999 * Math.random())+1);
+							document.write('<SCR'+'IPT LANGUAGE="JavaScript" ');
+							document.write('SRC="http://servedby.advertising.com/site=72422/size=125125/bnum='+bnum+'/optn=1"></SCR'+'IPT>');
+							</SCRIPT>
+							<NOSCRIPT>
+									 <A HREF="http://servedby.advertising.com/click/site=72422/bnum=54301768" TARGET="_blank">
+									 <IMG SRC="http://servedby.advertising.com/site=72422/size=125125/bnum=54301768/bins=1/rich=0" WIDTH="125" HEIGHT="125" BORDER="0" ALT="Click to learn more...">
+									 </A>
+							</NOSCRIPT>
+							<!-- ---------- Copyright 2000, Advertising.com ---------- -->
+            </td>
+      	</tr>
+      	</table>
+      	<!------------ LEFT 125x125 --------->
+      	
+	  <br>
+    </td>
+  </tr>
+</table>
+<br>
+<center>
+<a href='http://www.real.com/freeplayer/?rppr=raaga.com' target='_blank' title='Download FREE RealOne player...'>
+<img src="http://www.raaga.com/images/common/real_icon.gif" border=0>
+</a>
+<br><br>  
+
+</center>
+
+
+            </td>
+          </tr>
+        </table>
+		<BR>
+        <BR>
+        <BR>
+      </td>
+    <td rowspan=1 width="9" bgcolor="#000000">&nbsp;</td>
+    <td valign="top" width="607" align="center" bgcolor="#E3E3E3">
+		<br>
+	        
+<!--<script language="javascript">
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+document.write('<iframe src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum='+rnum+
+'" width=468 height=60 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=2'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2"&s=i&rnum='+rnum+
+'" width=468 height=60 border=0></a></iframe>');
+</script>
+<noscript>
+	<iframe src=http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum=1234 
+	width=468 height=60 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>
+	<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=2&rnum=1234" target="_blank">
+	<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=2&rnum=1234" border=0></a>
+	</iframe>
+</noscript>
+-->
+
+<script language="Javascript"><!--
+var i=j=p=t=u=x=z=dc='';var id=f=0;var f=Math.floor(Math.random()*7777);
+id=5577; dc=document;u='ht'+'tp://media.fastclick.net/w'; x='/get.media?t=n';
+z=' width=468 height=60 border=0 ';t=z+'marginheight=0 marginwidth=';
+i=u+x+'&sid='+id+'&m=1&tp=1&f=b&v=1.4&c='+f+'&r='+escape(dc.referrer);
+u='<a  hr'+'ef="'+u+'/click.here?sid='+id+'&m=1&c='+f+'"  target="_blank">';
+dc.writeln('<ifr'+'ame src="'+i+'&d=f"'+t+'0 hspace=0 vspace=0 frameborder=0 scrolling=no>');
+if(navigator.appName.indexOf('Mic')<=0){dc.writeln(u+'<img src="'+i+'&d=n"'+z+'></a>');}
+dc.writeln('</iframe>'); // --></script><noscript>
+<a href="http://media.fastclick.net/w/click.here?sid=5577&m=1&c=1"  target="_blank">
+<img src="http://media.fastclick.net/w/get.media?sid=5577&m=1&tp=1&d=s&c=1&f=b&v=1.4"
+width=468 height=60 border=1></a></noscript>
+					
+<br><br>
+
+<center>
+	<img src="../../images/common/myraaga.jpg">
+	<br><br>
+
+
+<form action=""  name="raaga" method=POST onSubmit="return validate(this);">
+
+
+
+    <table width="414" border="0" cellspacing="0" cellpadding="2">
+      <tr> 
+        <td> 
+          <table border='0' cellspacing=1 cellpadding=2 width="100%">
+            <tr bgcolor="#000000" align="center"> 
+              <th> 
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"> 
+                MY RAAGA > ULTRA HINDI VOL. 1<br>
+				Songs in archive: 15</font><br>
+              </th>
+            </tr>
+            <tr align="center"> 
+              <th> 
+                <input type="button" name="play" value='Play Selected' class='button' onClick="getList()">
+                <input type=button value='Select All' class='button' onClick="SelectAll()" name="button">
+                <input type=button value='Invert Selection' class='button' onClick="InvertSelect()" name="button">
+              </th>
+            </tr>
+						<tr align="center"> 
+							<th>&nbsp;</th>
+            </tr>
+	 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16677">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16677);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Aa Ab Laut Chalen)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16677);return false;' class='black'>Aa Ab Laut Chalen</a>&nbsp; <a href="" onClick="rate(16677);return false;"><img src="http://img.raaga.com/4_s.gif" alt="RATING: 3.98" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Udit+Narayan.html" class="blackNoLine">Udit Narayan</a>, <a href="http://www.raaga.com/channels/hindi/singers/Alka+Yagnik.html" class="blackNoLine">Alka Yagnik</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Nadeem+Shravan.html" class="blackNoLine">Nadeem Shravan</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000706.html" class="blackNoLine">Aa Ab Laut Chalen</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="13199">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(13199);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Agar Tum Na Hote)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/13199.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Agar Tum Na Hote" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(13199);return false;' class='black'>Agar Tum Na Hote</a>&nbsp; <a href="" onClick="rate(13199);return false;"><img src="http://img.raaga.com/4_s.gif" alt="RATING: 4.49" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Kishore+Kumar.html" class="blackNoLine">Kishore Kumar</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/RD%2E+Burman.html" class="blackNoLine">RD. Burman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000617.html" class="blackNoLine">Agar Tum Na Hote</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="2582">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(2582);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Kahin Door Jab Din)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/2582.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Kahin Door Jab Din" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(2582);return false;' class='black'>Kahin Door Jab Din</a>&nbsp; <a href="" onClick="rate(2582);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.72" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Mukesh.html" class="blackNoLine">Mukesh</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Salil+Choudhary.html" class="blackNoLine">Salil Choudhary</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000175.html" class="blackNoLine">Anand</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="3197">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(3197);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Kehna Hi Kya)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/3197.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Kehna Hi Kya" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(3197);return false;' class='black'>Kehna Hi Kya</a>&nbsp; <a href="" onClick="rate(3197);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.69" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Chitra.html" class="blackNoLine">Chitra</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/AR%2E+Rehman.html" class="blackNoLine">AR. Rehman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000270.html" class="blackNoLine">Bombay</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="3198">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(3198);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Kuchhi Kuchhi Rakkama)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/3198.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Kuchhi Kuchhi Rakkama" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(3198);return false;' class='black'>Kuchhi Kuchhi Rakkama</a>&nbsp; <a href="" onClick="rate(3198);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.51" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Udit+Narayan.html" class="blackNoLine">Udit Narayan</a>, <a href="http://www.raaga.com/channels/hindi/singers/Kavita+Krishnamurthy.html" class="blackNoLine">Kavita Krishnamurthy</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/AR%2E+Rehman.html" class="blackNoLine">AR. Rehman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000270.html" class="blackNoLine">Bombay</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="2036">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(2036);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Maye Ni Maye)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(2036);return false;' class='black'>Maye Ni Maye</a>&nbsp; <a href="" onClick="rate(2036);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.52" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Lata+Mangeshkar.html" class="blackNoLine">Lata Mangeshkar</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Ram+Laxman.html" class="blackNoLine">Ram Laxman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000158.html" class="blackNoLine">Hum Aapke Hain Koun</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16251">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16251);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Gore Gore)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/16251.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Gore Gore" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16251);return false;' class='black'>Gore Gore</a>&nbsp; <a href="" onClick="rate(16251);return false;"><img src="http://img.raaga.com/4_s.gif" alt="RATING: 4.4" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Alka+Yagnik.html" class="blackNoLine">Alka Yagnik</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Jatin+Lalit.html" class="blackNoLine">Jatin Lalit</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000687.html" class="blackNoLine">Hum Tum</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16250">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16250);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Hum Tum)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/16250.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Hum Tum" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16250);return false;' class='black'>Hum Tum</a>&nbsp; <a href="" onClick="rate(16250);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.52" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Alka+Yagnik.html" class="blackNoLine">Alka Yagnik</a>, <a href="http://www.raaga.com/channels/hindi/singers/Babul+Supriyo.html" class="blackNoLine">Babul Supriyo</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Jatin+Lalit.html" class="blackNoLine">Jatin Lalit</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000687.html" class="blackNoLine">Hum Tum</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16248">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16248);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Ladki Kyon)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/16248.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Ladki Kyon" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16248);return false;' class='black'>Ladki Kyon</a>&nbsp; <a href="" onClick="rate(16248);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.51" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Alka+Yagnik.html" class="blackNoLine">Alka Yagnik</a>, <a href="http://www.raaga.com/channels/hindi/singers/Shaan.html" class="blackNoLine">Shaan</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Jatin+Lalit.html" class="blackNoLine">Jatin Lalit</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000687.html" class="blackNoLine">Hum Tum</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16077">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16077);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Tumse Milke Dil Ka Jo Haal)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16077);return false;' class='black'>Tumse Milke Dil Ka Jo Haal</a>&nbsp; <a href="" onClick="rate(16077);return false;"><img src="http://img.raaga.com/4_s.gif" alt="RATING: 4.47" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Aftab+Sabri.html" class="blackNoLine">Aftab Sabri</a>, <a href="http://www.raaga.com/channels/hindi/singers/Hasim+Sabri.html" class="blackNoLine">Hasim Sabri</a>, <a href="http://www.raaga.com/channels/hindi/singers/Sonu+Nigam.html" class="blackNoLine">Sonu Nigam</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Anu+Malik.html" class="blackNoLine">Anu Malik</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000677.html" class="blackNoLine">Main Hoon Na</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="16112">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(16112);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Bheegey Hont)" border=0 align=right></a><a href="http://www.raaga.com/channels/hindi/lyrics/16112.html" class=red><img src="http://img.raaga.com/common/lyrics_txt.gif" alt="Get lyrics for Bheegey Hont" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(16112);return false;' class='black'>Bheegey Hont</a>&nbsp; <a href="" onClick="rate(16112);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.52" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Kunal+Ganjawala.html" class="blackNoLine">Kunal Ganjawala</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/Anu+Malik.html" class="blackNoLine">Anu Malik</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000681.html" class="blackNoLine">Murder</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="11808">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(11808);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Tumse Milke Aisa Laga)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(11808);return false;' class='black'>Tumse Milke Aisa Laga</a>&nbsp; <a href="" onClick="rate(11808);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.76" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Suresh+Wadekhar.html" class="blackNoLine">Suresh Wadekhar</a>, <a href="http://www.raaga.com/channels/hindi/singers/Asha+Bhosle.html" class="blackNoLine">Asha Bhosle</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/RD%2E+Burman.html" class="blackNoLine">RD. Burman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000570.html" class="blackNoLine">Parinda</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="2074">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(2074);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Chehra Hai Ya Chaand)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(2074);return false;' class='black'>Chehra Hai Ya Chaand</a>&nbsp; <a href="" onClick="rate(2074);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.53" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Kishore+Kumar.html" class="blackNoLine">Kishore Kumar</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/RD%2E+Burman.html" class="blackNoLine">RD. Burman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000161.html" class="blackNoLine">Saagar</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="2078">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(2078);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Saagar Kinare)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(2078);return false;' class='black'>Saagar Kinare</a>&nbsp; <a href="" onClick="rate(2078);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.61" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Kishore+Kumar.html" class="blackNoLine">Kishore Kumar</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/RD%2E+Burman.html" class="blackNoLine">RD. Burman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000161.html" class="blackNoLine">Saagar</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 
+
+	      <tr><td>
+	      <table border="0" cellspacing="0" cellpadding="2">
+							<tr> 
+              <td width="5%" align="center" rowspan=4 valign=top> 
+                <input type="checkbox" name="pick" value="721">
+                
+              </td>
+              
+              <td>
+				<a href="" onClick="mailSong(721);return false;"><img src="http://img.raaga.com/common/mail.gif" alt="Mail clip (Chanda Re)" border=0 align=right></a>
+				<font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href='' onClick='setList1(721);return false;' class='black'>Chanda Re</a>&nbsp; <a href="" onClick="rate(721);return false;"><img src="http://img.raaga.com/5_s.gif" alt="RATING: 4.63" border=0></a></font>
+	      	   </td></tr>
+		      <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Singer(s): </b><a href="http://www.raaga.com/channels/hindi/singers/Hariharan.html" class="blackNoLine">Hariharan</a>, <a href="http://www.raaga.com/channels/hindi/singers/Sadhana+Sargam.html" class="blackNoLine">Sadhana Sargam</a>&nbsp;</font></td>
+              </tr>
+               <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Music: </b><a href="http://www.raaga.com/channels/hindi/music/AR%2E+Rehman.html" class="blackNoLine">AR. Rehman</a>&nbsp;</font></td>
+              </tr>
+ 							             
+              <tr>
+              <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Album: </b><a href="http://www.raaga.com/channels/hindi/movie/H000055.html" class="blackNoLine">Sapnay</a>&nbsp;</font></td>
+            </tr>
+         </table>
+			</td>
+			</tr>
+ 	
+       </table>
+        </td>
+      </tr>
+      <tr align="center"> 
+				<th>&nbsp;</th>
+			</tr>
+      <tr bgcolor="" align="left"> 
+              <td>
+              <input type="button" name="play" value='Play Selected' class='button' onClick="getList()">
+              <input type="button" value='Delete Selected' class='button' onClick="doDel(document.deleteClips)">
+              </td>
+      </tr>
+      <tr bgcolor=""> 
+        <td><img src="image/none.gif" height=4 width=1></td>
+      </tr>
+    </table>
+<input type="hidden" name="Lang" value="MR">
+<input type="hidden" name="mode" value="0">
+<input type="hidden" name="pick1" value="">
+<input type="hidden" name="sortBy" value="">
+</form>
+
+<form name="deleteClips" action="deletePLClips.asp" method=post>
+		<input type="hidden" name="pick">
+		<input type="hidden" name="cid" value="C202138112243885180074219200510113670402">
+		<input type="hidden" name="cname" value="ULTRA HINDI VOL. 1">
+		<input type="hidden" name="songs" value="16677,13199,2582,3197,3198,2036,16251,16250,16248,16077,16112,11808,2074,2078,721,">
+</form>
+
+<form name="pageFrm" action="/channels/myraaga/viewPL.asp" method=POST>
+	<input type="hidden" name='whichpage' value='1'><input type="hidden" name='cname' value='ULTRA HINDI VOL. 1'><input type="hidden" name='cid' value='C202138112243885180074219200510113670402'>
+</form>
+
+
+        </td>
+      <td rowspan=1 width="9" bgcolor="#000000">&nbsp;</td>
+      <td valign="top" align="center" bgcolor="#E3E3E3" width="125">
+              
+
+<form method="post" action="http://www.raaga.com/secnew/authenNew.asp" name="rt_form">
+  
+    <table width="125" border="0" cellspacing="0" cellpadding="0" background="http://img.raaga.com/right_menu_back.gif">
+
+    <tr bgcolor="#666666">
+      <td  background="http://img.raaga.com/gray1x1.gif">
+        <table border="0" cellspacing="0" cellpadding="0" width="100%"  background="http://img.raaga.com/common/rt_menu_button.jpg">
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><a href="http://www.raaga.com/channels/myraaga/playlist.asp" class="menuItem">My Playlists</a></b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td>
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+              <a href="http://www.raaga.com/channels/myraaga/profile.asp" class="menuItem">Update Profile</a><br>
+              </b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+						<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+							<a href="http://www.raaga.com/channels/myraaga/profile.asp?task=email" class="menuItem">Update E-mail</a><br>
+							</b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+						<td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+							<a href="http://www.raaga.com/channels/myraaga/profile.asp?task=passwd" class="menuItem">Change Password</a><br>
+							</b></font></td>
+          </tr>
+          <tr>
+          	<td><img src="http://img.raaga.com/spacer.gif" height=20 width=5></td>
+            <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>
+              <a href="http://www.raaga.com/channels/myraaga/logout.asp" class="menuItem">Sign out</a> </b></font></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+        <td><img src="http://img.raaga.com/spacer.gif" width="8" height="8"></td>
+    </tr>
+    </table>
+
+    
+    <table width="125" border="0" cellspacing="0" cellpadding="2">
+    <tr bgcolor="#E3E3E3">
+      <td align="center">
+	  <br>
+		<!-- FASTCLICK.COM 120x600 v1.4 for raaga.com -->
+		<script language="Javascript"><!-- 
+		var i=j=p=t=u=x=z=dc='';var id=f=0;var f=Math.floor(Math.random()*7777);
+		id=5577; dc=document;u='ht'+'tp://media.fastclick.net/w'; x='/get.media?t=n';
+		z=' width=120 height=600 border=0 ';t=z+'marginheight=0 marginwidth=';
+		i=u+x+'&sid='+id+'&m=3&f=b&v=1.4&c='+f+'&r='+escape(dc.referrer);
+		u='<a  hr'+'ef="'+u+'/click.here?sid='+id+'&m=3&c='+f+'"  target="_blank">';
+		dc.writeln('<ifr'+'ame src="'+i+'&d=f"'+t+'0 hspace=0 vspace=0 frameborder=0 scrolling=no>');
+		if(navigator.appName.indexOf('Mic')<=0){dc.writeln(u+'<img src="'+i+'&d=n"'+z+'></a>');}
+		dc.writeln('</iframe>'); // --></script><noscript>
+		<a href="http://media.fastclick.net/w/click.here?sid=5577&m=3&c=1"  target="_blank">
+		<img src="http://media.fastclick.net/w/get.media?sid=5577&m=3&d=s&c=1&f=b&v=1.4"
+		width=120 height=600 border=1></a></noscript>
+		<!-- FASTCLICK.COM 120x600 v1.4 for raaga.com -->
+		
+      </td>
+    </tr>
+  </table>
+</form>
+
+	  </td>
+  </tr>
+</table>
+
+	      
+<br>
+	
+<script language="javascript"><!--
+var rnum=new Number(Math.floor(99999999 * Math.random())+1); 
+document.write('<iframe src="http://www.raaga.com/bAds/footerIFrame.asp?rand='+rnum+
+'" width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>' +
+'<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4'+rnum+'" target="_blank">'+
+'<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4"&s=i&rnum='+rnum+
+'" width=728 height=90 border=0></a></iframe>');
+// --></script>
+<noscript>
+	<iframe src=http://ads1.revenue.net/v?site_id=13795&pplacement_id=4&rnum=1234 
+	width=728 height=90 hspace=0 vspace=0 frameborder=0 marginheight=0 marginwidth=0 scrolling=no>
+	<a href="http://ads1.revenue.net/c?site_id=13795&pplacement_id=4&rnum=1234" target="_blank">
+	<img src="http://ads1.revenue.net/v?site_id=13795&pplacement_id=4&rnum=1234" border=0></a>
+	</iframe>
+</noscript><!-- ---------- Advertising.com Banner Code -------------- --> 
+<script language="JavaScript"> 
+<!-- 
+function setCookie(NameOfCookie, value, expirehours) { 
+var ExpireDate = new Date (); 
+ExpireDate.setTime(ExpireDate.getTime() + (expirehours * 3600 * 1000)); 
+document.cookie = NameOfCookie + "=" + escape(value) + 
+((expirehours == null) ? "" : "; expires=" + ExpireDate.toGMTString()) + 
+"; path=/;" ; 
+} 
+if (document.cookie.indexOf('AdComPop69406')==-1) 
+{ 
+setCookie('AdComPop69406','yes',24);
+var bnum=new Number(Math.floor(99999999 * Math.random())+1);
+document.write('<SCR'+'IPT LANGUAGE="JavaScript" '); 
+document.write(' SRC="http://servedby.advertising.com/pops=6/site=69406/bnum='+bnum+'"></SCR'+'IPT>'); 
+} 
+// --> 
+</script> 
+<!-- ----------Copyright 2000, Advertising.com---------- -->
+<br><br>
+<table align=center>
+<tr><td class=white>
+<font face=verdana size=1>
+Raaga.com is an officially licensed IPRS website.
+</font>
+</td></tr>
+</table>
+<br>   
+ <table border="0" cellpadding="0" cellspacing="0" width="100%" background="http://img.raaga.com/footer_r1_c2.gif">
+   <tr>
+    <td background="http://img.raaga.com/footer_r1_c1.gif"><img src="http://img.raaga.com/none.gif" width=34 height=1 align=left></td>
+    <td background="http://img.raaga.com/footer_r1_c2.gif"  width="90%" nowrap>
+    <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#CC0000"><a href="default.asp" class="red">Home</a>
+   | <a href="../myraaga/" class="red">My Raaga</a> | <a href="" onClick="register();return false" class="red">Register</a>
+   | <a href="" onClick="informer();return false" class="red">Tell a friend</a> | <a href="" onClick="getFeedback();return false" class="red">Feedback</a> |
+   <!--Advertise | About Us |--> <a href="http://www.raaga.com/channels/home/privacy.asp" class="red">Privacy Policy</a> <!--| Disclaimer-->
+   <br>
+   Copyright © 2004 Raaga.com
+   
+   
+	<img src="http://img.raaga.com/skins/texture/realjukebox1_metal.jpg" width="1" height="1">
+   </font>
+    </td>
+    <td>
+    <a href="http://www.raaga.com/">
+    	<img name="footer_r1_c3" src="http://img.raaga.com/footer_r1_c3.gif" width="223" height="44" border="0">
+    </a>
+    </td>
+   </tr>
+ </table>
+
+<!--S1-->
+	
+</center>
+</body>
+</html>

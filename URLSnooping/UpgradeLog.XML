@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="URLSnooper">
+</Property><Property Name="Solution File" Value="E:\My Projects\RaagaHackerL\URLSnooping\URLSnooper.sln">
+</Property><Property Name="Date" Value="Tuesday, October 24, 2006">
+</Property><Property Name="Time" Value="20:07:45 PM">
+</Property></Properties><Event ErrorLevel="1" Project="E:\My Projects\RaagaHackerL\URLSnooping\Pacanal\Pacanal.csproj" Source="Pacanal\Pacanal.csproj" Description="MSB2014: The project-to-project reference with GUID {97FB3EBC-0898-4519-B4C8-CFFB77BC7F55} cannot be converted because it is not listed in the file 'E:\My Projects\RaagaHackerL\URLSnooping\URLSnooper.sln'.">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\Pacanal.csproj" Description="Project file successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\Pacanal.csproj">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\Pacanal.csproj.user" Description="Project user file successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\Pacanal.csproj.user">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\AssemblyInfo.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\CaptureMessage.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\CaptureMessage.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\CaptureOptions.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\CaptureOptions.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\ColumnOptions.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\ColumnOptions.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\DisplayTotals.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\DisplayTotals.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\FormPacanal.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\FormPacanal.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\TransparencyOptions.cs" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\TransparencyOptions.cs">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\App.ico" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\CaptureMessage.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\CaptureMessage.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\CaptureOptions.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\CaptureOptions.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\ColumnOptions.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\ColumnOptions.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\DisplayTotals.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\DisplayTotals.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\FormPacanal.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\FormPacanal.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\TransparencyOptions.resx" Description="File successfully backed up as E:\My Projects\RaagaHackerL\URLSnooping\Backup\TransparencyOptions.resx">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\Pacanal.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Pacanal" Source="Pacanal\Pacanal.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Pacanal" Source="Pacanal\Pacanal.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

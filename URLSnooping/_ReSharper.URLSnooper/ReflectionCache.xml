@@ -1,0 +1,8 @@
+<Assemblies Version="14">
+  <Assembly Name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="0e0891cd-af07-4665-8cde-6de3029ac9dd.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="c80d1cf5-7b69-4dd4-904a-2d67ecaa483f.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="6682a580-aa68-4cac-9dcd-8a8ba6387b11.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Cache="acfc1b3c-52c9-4eea-b446-a0db62280a85.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="ba0fab60-deb9-4797-9339-9db3c2f0a2c4.ReflectionCache" Timestamp="632630573360000000" />
+  <Assembly Name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Cache="c52bde94-2bd1-4e63-ab5c-b223e938886f.ReflectionCache" Timestamp="632630573360000000" />
+</Assemblies>

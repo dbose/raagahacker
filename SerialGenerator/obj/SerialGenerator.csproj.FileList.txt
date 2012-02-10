@@ -1,0 +1,16 @@
+bin\Debug\SerialGenerator.exe
+bin\Debug\SerialGenerator.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SerialGenerator.frmSerialGenerator.resources
+obj\Debug\SerialGenerator.Properties.Resources.resources
+obj\Debug\SerialGenerator.csproj.GenerateResource.Cache
+obj\Debug\SerialGenerator.exe
+obj\Debug\SerialGenerator.pdb
+bin\Release\SerialGenerator.exe
+bin\Release\SerialGenerator.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\SerialGenerator.frmSerialGenerator.resources
+obj\Release\SerialGenerator.Properties.Resources.resources
+obj\Release\SerialGenerator.csproj.GenerateResource.Cache
+obj\Release\SerialGenerator.exe
+obj\Release\SerialGenerator.pdb

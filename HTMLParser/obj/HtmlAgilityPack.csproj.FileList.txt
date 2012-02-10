@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\HtmlAgilityPack.dll
+bin\Debug\HtmlAgilityPack.pdb
+bin\Debug\HtmlAgilityPack.xml
+obj\Debug\HtmlAgilityPack.dll
+obj\Debug\HtmlAgilityPack.pdb
+bin\Release\HtmlAgilityPack.dll
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\HtmlAgilityPack.dll

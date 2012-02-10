@@ -1,0 +1,14 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Pacanal.CaptureMessage.resources
+obj\Debug\Pacanal.CaptureOptions.resources
+obj\Debug\Pacanal.ColumnOptions.resources
+obj\Debug\Pacanal.DisplayTotals.resources
+obj\Debug\Pacanal.FormMain.resources
+obj\Debug\Pacanal.TransparencyOptions.resources
+obj\Debug\Pacanal.csproj.GenerateResource.Cache
+bin\Debug\Pacanal.exe
+bin\Debug\Pacanal.pdb
+bin\Debug\MyClasses.dll
+bin\Debug\MyClasses.pdb
+obj\Debug\Pacanal.exe
+obj\Debug\Pacanal.pdb

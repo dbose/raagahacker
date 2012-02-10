@@ -1,0 +1,28 @@
+//
+///////////////////////////////////////////
+// Nice to have features...
+//
+
+1. Song search in user playlists
+2. Optionally create playlist on the fly
+3  Support interrupted recording
+4. Sound Card Device Detection
+5. Schedular
+6. All playlist operation
+7. HTML filters
+8. Exception 
+	IE Javascript error msg box
+9. Next song(navigation)
+10. ID3 tags in mp3 encoding(custom header data)
+11. Songs browser [ Shell explorer  - rooted at "root folder" ]
+12. Multi-threaded recording. Currently UI thread is recording and streaming song 
+    which causes sometimes problem especially in slow machines.
+
+//////////////////////////////////////////
+//Help
+//////////////////////////////////////////
+1. Banner
+    - Top : (R,G,B) = (65,106,207)
+      Below : (99,117,214)
+      
+2. 

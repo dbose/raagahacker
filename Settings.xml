@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<Basic>
+		<DefaultMusicFolder>C:\</DefaultMusicFolder>
+		<AuomaticGenreDetection>TRUE</AutomaticGenreDetection>
+		<KeepWAVFileAfterEncoding>FALSE</KeepWAVFileAfterEncoding>
+		<MixRecordingDirectory>FALSE</MixRecordingDirectory>
+	</Basic>
+	<Encoding>
+		<DefaultEncoding></DefaultEncoding>
+		<MP3Settings>
+		</MP3Settings>
+	</Encoding>
+</Settings>

@@ -1,0 +1,453 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{AC169329-3B2A-4BF9-9A7C-02F3067DE607}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "RaagaHacker"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = 'copy "$(ProjectDir)Mp3Encoding\lame_enc.dll" "$(TargetDir)"&#xd;&#xa;copy "$(ProjectDir)Mp3Encoding\lame.exe" "$(TargetDir)"&#xd;&#xa;copy "$(ProjectDir)AdSignatures.xml" "$(TargetDir)"&#xd;&#xa;copy "$(ProjectDir)Tours\*.rtf" "$(TargetDir)"'
+                RootNamespace = "RaagaHacker"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "Microsoft.mshtml"
+                    AssemblyName = "Microsoft.mshtml"
+                    HintPath = "..\..\..\..\..\..\Program Files\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll"
+                    AssemblyFolderKey = "hklm\primary interop assemblies"
+                />
+                <Reference
+                    Name = "Interop.SHDocVw"
+                    AssemblyName = "Interop.SHDocVw"
+                    HintPath = "References\Interop.SHDocVw.dll"
+                />
+                <Reference
+                    Name = "AxInterop.SHDocVw"
+                    AssemblyName = "AxInterop.SHDocVw"
+                    HintPath = "References\AxInterop.SHDocVw.dll"
+                />
+                <Reference
+                    Name = "C1.Common"
+                    AssemblyName = "C1.Common"
+                    HintPath = "References\C1.Common.dll"
+                />
+                <Reference
+                    Name = "C1.Win.C1Command"
+                    AssemblyName = "C1.Win.C1Command"
+                    HintPath = "References\C1.Win.C1Command.dll"
+                />
+                <Reference
+                    Name = "WizardDialogLib"
+                    Project = "{91F1FE4D-7C89-41EC-80E2-AD77B76F681B}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "stdole"
+                    Guid = "{00020430-0000-0000-C000-000000000046}"
+                    VersionMajor = "2"
+                    VersionMinor = "0"
+                    Lcid = "0"
+                    WrapperTool = "primary"
+                />
+                <Reference
+                    Name = "plasmatech.scpax"
+                    AssemblyName = "plasmatech.scpax"
+                    HintPath = "References\plasmatech.scpax.dll"
+                />
+                <Reference
+                    Name = "plasmatech.scpax.interop"
+                    AssemblyName = "plasmatech.scpax.interop"
+                    HintPath = "References\plasmatech.scpax.interop.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AdSignatures.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ClipInfoParser.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FormatConverter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmAboutMe.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmAboutMe.resx"
+                    DependentUpon = "frmAboutMe.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmAdSignatures.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmAdSignatures.resx"
+                    DependentUpon = "frmAdSignatures.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmException.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmException.resx"
+                    DependentUpon = "frmException.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMain.resx"
+                    DependentUpon = "frmMain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMusicDirBrowser.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMusicDirBrowser.resx"
+                    DependentUpon = "frmMusicDirBrowser.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmNewWindowJukeBox.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmNewWindowJukeBox.resx"
+                    DependentUpon = "frmNewWindowJukeBox.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSettings.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSettings.resx"
+                    DependentUpon = "frmSettings.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Globals.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "licenses.licx"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "NativeWin32.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RaagaCookies.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "RaagaHacker.ShellKey.snk"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Settings.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Signatures.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "SongInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "URLs.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Utility.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Help\Features Feedback.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Help\Live HTTP Header.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\myraaga_HTML.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\myraaga_Login.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\playlist_LIST.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\playlist_LIST_HTML.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\RAAGA - Hindi - Actors - DIYA MIRZA.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "HTMLPages\viewPL_HTML.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\Error.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\Ghazals.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\Icon_51.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\Icon_59.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\MusicArchive.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\mymus02.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\MyRaagaLogin.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Icon\Raaga.ico"
+                    BuildAction = "Content"
+                />
+                <Folder RelPath = "Images\" />
+                <File
+                    RelPath = "Mp3Encoding\lame.exe"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Mp3Encoding\lame_enc.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Mp3Encoding\Mp3Encoder.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "References\AxInterop.SHDocVw.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "References\AxPTxSCP.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "References\C1.Common.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "References\C1.Win.C1Command.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "References\Interop.SHDocVw.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "References\PTxSCP.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\common.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Scripts\play1.js"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Tours\RaagaHackerTourWizard_Introduction_Page.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Tours\RaagaHackerTourWizard_Introduction_Page.resx"
+                    DependentUpon = "RaagaHackerTourWizard_Introduction_Page.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Tours\RaagaHackerTourWizardMainForm.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Tours\RaagaHackerTourWizardMainForm.resx"
+                    DependentUpon = "RaagaHackerTourWizardMainForm.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Tours\Tour_Introductory.rtf"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "WaveLib\AudioWriter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WaveLib\WaveIn.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WaveLib\WaveNative.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WaveLib\WaveStream.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WaveLib\WaveWriter.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

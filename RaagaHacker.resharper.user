@@ -1,0 +1,29 @@
+<Configuration>
+  <CompletionStatisticsManager />
+  <EditorManager>
+    <RecentFiles>
+      <File id="E70E885B-6148-488E-BBFF-1E9A9B784626/f:Purchase_backup.aspx.cs" caret="397" visual-x="0" visual-y="0" />
+      <File id="AC169329-3B2A-4BF9-9A7C-02F3067DE607/f:frmNewWindowJukeBox.cs" caret="13125" visual-x="0" visual-y="6409" />
+      <File id="AC169329-3B2A-4BF9-9A7C-02F3067DE607/f:frmMain.cs" caret="58882" visual-x="0" visual-y="24361" />
+    </RecentFiles>
+  </EditorManager>
+  <FileStructureView>
+    <AutoScrollToSource>False</AutoScrollToSource>
+    <TrackCaretLocation>False</TrackCaretLocation>
+  </FileStructureView>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <ReFormatCode>
+    <OptimizeUsings>False</OptimizeUsings>
+    <RemoveRedundantThis>False</RemoveRedundantThis>
+    <ShortenReferences>False</ShortenReferences>
+    <DecorateModifiers>False</DecorateModifiers>
+  </ReFormatCode>
+  <SharedSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </SharedSolutionDisabledTemplatesManager>
+  <UserSolutionDisabledTemplatesManager>
+    <DisabledTemplates />
+  </UserSolutionDisabledTemplatesManager>
+</Configuration>

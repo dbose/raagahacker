@@ -1,0 +1,5 @@
+bin\RaagaHacker.dll
+bin\RaagaHacker.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\RaagaHacker.dll
+obj\Debug\RaagaHacker.pdb

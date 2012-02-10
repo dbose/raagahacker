@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaagaHacker", "RaagaHacker.csproj", "{AC169329-3B2A-4BF9-9A7C-02F3067DE607}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RaagaHacker_Setup", "RaagaHacker_Setup\RaagaHacker_Setup.vdproj", "{6069C60C-951B-423B-BD48-774B318C3EFA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Debug.ActiveCfg = Debug|.NET
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Debug.Build.0 = Debug|.NET
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Release.ActiveCfg = Release|.NET
+		{AC169329-3B2A-4BF9-9A7C-02F3067DE607}.Release.Build.0 = Release|.NET
+		{6069C60C-951B-423B-BD48-774B318C3EFA}.Debug.ActiveCfg = Debug
+		{6069C60C-951B-423B-BD48-774B318C3EFA}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

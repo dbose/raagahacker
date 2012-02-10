@@ -1,0 +1,42 @@
+Hi William,
+
+Thanks for your post. As I understand, you want to view the request
+information being sent from IE or WebBrowser Control. Please correct me if
+there is any misunderstanding. There are several methods we can use:
+
+1. There is a C# HTTP client sample which demonstrates how to use .NET
+networking classes. It will list the header/cookie information in details.
+Please check it on your side:
+
+SAMPLE: Visual C# .NET Networking Classes HTTP Internet Client
+http://support.microsoft.com/default.aspx?scid=kb;EN-US;Q303436
+
+2. You can also enable logging in IIS which will log the cookie information
+in a log file. Please refer to the following MSDN article:
+
+Customizing W3C Extended Logging
+http://www.microsoft.com/resources/documentation/WindowsServ/2003/standard/p
+roddocs/en-us/Default.asp?url=/resources/documentation/WindowsServ/2003/stan
+dard/proddocs/en-us/log_customw3c.asp
+
+3. For WebBrowser ActiveX control, it exposes the IWebBrowser2 interface,
+which lets you control the browser. The IWebBrowser2 interface lets you
+retrieve an interface pointer to the current HTML document (IHTMLDocument2)
+from which you can get cookie:
+
+http://msdn.microsoft.com/library/default.asp?url=/workshop/browser/mshtml/r
+eference/ifaces/document2/cookie.asp
+
+I'd like to recommend you HTTP Specification which you can access at
+http://www.w3.org/Protocols/rfc2616/rfc2616.html.
+
+In addition, since you are using 3rd-party wwHTTP, I suggest that you can
+also contact www.West-Wind.com for detailed information on using wwHTTP.
+
+Hope this helps.
+
+Regards,
+
+HuangTM
+Microsoft Online Partner Support
+MCSE/MCSD
